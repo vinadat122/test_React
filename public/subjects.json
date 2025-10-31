@@ -1,0 +1,7 @@
+[
+  { "name": "React JS", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" },
+  { "name": "PHP", "image": "https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg" },
+  { "name": "Python", "image": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" },
+  { "name": ".NET Core", "image": "https://upload.wikimedia.org/wikipedia/commons/e/ee/.NET_Core_Logo.svg" },
+  { "name": "Spring Boot", "image": "https://upload.wikimedia.org/wikipedia/commons/4/44/Spring_Framework_Logo_2018.svg" }
+]

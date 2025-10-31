@@ -1,16 +1,26 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import "./App.css";
+import Header from "./components/Header";
+import ObjectList from "./components/ObjectList";
+import SubjectList from "./components/SubjectList";
+import Footer from "./components/Footer";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <p>Xin chào</p>
+      <Header />
+      <div className="top-banner">
+        <div className="banner-wrapper">
+          <img
+            src="https://aptech.fpt.edu.vn/wp-content/uploads/2021/02/FAT-lich-su-FPT-Aptech.png"
+            alt="banner"
+          />
+        </div>
+      </div>
+      <ObjectList />
+      <SubjectList />
+      <Footer />
     </>
-  )
+  );
 }
 
 export default App
